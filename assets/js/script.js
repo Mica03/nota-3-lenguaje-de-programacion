@@ -48,7 +48,7 @@ $('document').ready(function(){
 
 $('document').ready(function(){
     $.getJSON({
-        url:'productos.json',
+        url:'./assets/js/productos.json',
         success: function(respuesta){
             $.each(respuesta,function(index,productos){
                 html = '<div class="col-md-3 productos-cartas">';
