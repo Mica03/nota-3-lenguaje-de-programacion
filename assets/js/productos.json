@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Producto",
+        "id": 1,
+        "price": "$9.990",
+        "image": "./assets/img/plush-s-elephant-mario-super-mario-bros-wonder.jpg"
+    },
+    {
+        "name": "Producto",
+        "id": 2,
+        "price": "$4.990",
+        "image": "./assets/img/mini-car-mario-kart-8-tomica-164.jpg"
+    },
+    {
+        "name": "Producto",
+        "id": 3,
+        "price": "$10.990",
+        "image": "./assets/img/tumbler-book-mario-super-mario.jpg"
+    },
+    {
+        "name": "Producto",
+        "id": 4,
+        "price": "$15.990",
+        "image": "./assets/img/figure-hatena-block-super-mario-character-light.jpg"
+    }
+]
