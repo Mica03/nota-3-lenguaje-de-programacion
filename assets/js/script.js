@@ -52,17 +52,17 @@ $('document').ready(function(){
         success: function(respuesta){
             $.each(respuesta,function(index,productos){
                 html = '<div class="col-md-3 productos-cartas">';
-            html += '<div class="card">';
-            html += '<img src="'+ productos.image +'" class="card-img-top" alt="'+ productos.name +'">';
-            html += '<div class="card-body">';
-            html += '<h5 class="card-title">'+ productos.name + ' ' + productos.id +'</h5>'; // Corregido h5 a h5
-            html += '<p class="card-text">' + productos.price + '</p>';
-            html += '<div class="d-flex justify-content-end">';
-            html += '<a href="#" class="btn btn-warning">Ver más detalles</a>';
-            html += '</div>';
-            html += '</div>';
-            html += '</div>';
-            html += '</div>';
+                               html += '<div class="card">';
+                        html += '<img src="'+ productos.image +'" class="card-img-top" alt="'+ productos.name +'">';
+                        html += '<div class="card-body">';
+                            html += '<h3 class="card-title">'+ productos.name + productos.id +'</h5>';
+                            html += '<p class="card-text">' + productos.price + '</p>';
+                            html += '<div class="d-flex justify-content-end">';
+                                html += '<a href="#" class="btn btn-warning">Ver mas detalles</a>';
+                            html += '</div>';
+                        html += '</div>';
+                    html += '</div>';
+                html += '</div>';
 
                 $('#productosDestacados').append(html);
 
