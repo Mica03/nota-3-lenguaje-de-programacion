@@ -90,6 +90,7 @@ function abrirVentanaProducto2(){
 setTimeout(abrirVentanaProducto2,9000);
 
 
+Fancybox.bind("[data-fancybox]");
 
 
 
@@ -147,4 +148,4 @@ miVentanaDetalle.addEventListener('show.bs.modal', function(event){
 //AOS
 AOS.init();
 
-Fancybox.bind("[data-fancybox]");
+
